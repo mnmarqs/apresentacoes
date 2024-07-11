@@ -1,0 +1,134 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+body
+{
+  background: #dddddd;
+  font-family: Arial;
+}
+
+#lateral h1
+{
+  color: #c21807;
+  font-weight: bold;
+  text-align: center;
+  font-size: 36px;
+}
+
+#lateral
+{
+  position: fixed;
+  height: 100%;
+  width: 20%;
+  padding-top: 10%;
+  text-align: center;
+  background: #dddddd;
+}
+
+#linkslaterais
+{
+  margin-top: 10px;
+}
+
+#linkslaterais a:link
+{
+  display: block;
+  font-weight: bold;
+  background: #c21807;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 5px;
+  margin: 3px 0px;
+  transition: 0.5s;
+}
+
+#linkslaterais a:visited
+{
+  color: #ffffff;
+}
+
+#linkslaterais a:hover, a:active
+{
+  display: block;
+  font-weight: bold;
+  background: #222222;
+  color: #c21807;
+  text-decoration: none;
+  padding: 5px;
+  margin: 3px 0px;
+  transition: 0.5s;
+}
+
+#conteudo
+{
+  margin-left: 20%;
+  position: absolute;
+  width: 70%;
+  margin-top: 2%;
+  padding: 0 15%;
+}
+
+#conteudo p
+{
+  color: #000000;
+  font-size: 16px;
+  text-align: justify;
+}
+
+@media screen and (max-width: 600px)
+{
+  #lateral
+  {
+    position: fixed;
+    height: 100%;
+    width: 35%;
+    padding-top: 10%;
+    text-align: center;
+    background: #dddddd;
+  }
+
+  #conteudo
+  {
+    margin-left: 35%;
+    position: absolute;
+    width: 70%;
+    margin-top: 10%;
+    padding: 0 15%;
+  }
+}
+
+#curriculo h1
+{
+  font-size: 24px;
+  color: #c21807;
+  font-weight: bold;
+  text-align: justify;
+  padding-top: 25px;
+}
+
+#curriculo ul
+{
+  list-style-type: square;
+  font-size: 16px;
+  color: #000000;
+  text-align: justify;
+}
+
+#curriculo a:link, a:visited
+{
+  font-size: 16px;
+  color: #c21807;
+}
+
+#curriculo a:hover, a:active
+{
+  font-size: 16px;
+  color: #ffffff;
+}
+
+#curriculo hr
+{
+  color: #000000;
+}
