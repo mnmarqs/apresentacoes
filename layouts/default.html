@@ -1,1 +1,52 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
+{% seo %}
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+    <title>Marina</title>
+    {% include head-custom.html %}
+  </head>
+
+  <body>
+    <div id="lateral">
+      <h1>{{ site.title | default: site.github.repository_name }}</a></h1>
+      <p>{{ site.description | default: site.github.project_tagline }}</p>
+
+      <div id="linkslaterais">
+        <a href="#">Início</a>
+        <a href="apresentacoes">Apresentações</a>
+        <a href="aulas">Aulas</a>
+      </div>
+    </div>
+
+    <div id="conteudo">
+      <div id="curriculo">
+        <h1>Apresentação</h1>
+        <hr style="color: black" />
+          <p>Olá, meu nome é Marina.</p>
+        <h1>Formação</h1>
+        <hr style="color: black" />
+        <ul>
+          <li>Doutorado em Linguística pela Universidade Federal de São Carlos (UFSCar): 2020 - presente.</li>
+          <li>Mestrado em Linguística pela Universidade Federal de São Carlos (UFSCar): 2017 - 2018. Dissertação: <a href="https://repositorio.ufscar.br/handle/ufscar/10305">Essa dissertação é divertida: Predicados de gosto pessoal e seus aspectos sintáticos, semânticos e pragmáticos</a></li>
+          <li>Graduação em Letras - Português/Espanhol pela Universidade Federal de São Carlos (UFSCar): 2012 - 2017.</li>
+        </ul>
+          <p><a href="http://lattes.cnpq.br/6111738798525760">Currículo Lattes</a></p>
+        <h1>Publicações</h1>
+        <hr style="color: black" />
+        <ul>
+          <li>2023, Capítulo de livro, com Bruno Ferreira e Renato Basso: <a href="https://www.degruyter.com/document/doi/10.1515/9783111183176-004/html">“What a great paper!”: A semantic analysis of wh-exclamatives with predicates of personal taste</a></li>
+          <li>2022, artigo, com Renato Basso: <a href="https://revistas.ufrj.br/index.php/rl/article/view/52955">Palavrão pra lá, palavrão pra cá: notas sobre a posição sintática e a interpretação de alguns expressivos do Português Brasileiro</a></li>
+          <li>2017, Artigo, com Renato Basso: <a href="https://revistas.ufpr.br/letras/article/view/51035">Predicados de gosto pessoal em português brasileiro: <i>individual</i> ou <i>stage level predicates</i>?</a></li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
